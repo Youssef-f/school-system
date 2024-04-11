@@ -1,0 +1,35 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@techuniversity.com",
+        "role": "student"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "smith@techuniversity.com",
+        "role": "teacher"
+      },
+      {
+        "id": 3,
+        "name": "Katy Johnson",
+        "email": "Johnson@techuniversity.com",
+        "role": "teacher"
+      },
+      {
+        "id": 4,
+        "name": "Andrea Lee",
+        "email": "Lee@techuniversity.com",
+        "role": "teacher"
+      },
+      {
+        "id": 5,
+        "name": "Admin User",
+        "email": "admin@techuniversity.com",
+        "role": "admin"
+      }
+    ]
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "absences": [
+      {
+        "userId": 1,
+        "moduleName": "Introduction to Computer Science",
+        "totalAbsences": 3
+      },
+      {
+        "userId": 1,
+        "moduleName": "Advanced Frontend Web Development",
+        "totalAbsences": 0
+      },
+      {
+        "userId": 1,
+        "moduleName": "User Experience (UX) Design",
+        "totalAbsences": 0
+      }
+    ]
+  }
+  

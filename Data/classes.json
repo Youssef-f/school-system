@@ -1,0 +1,33 @@
+{
+    "classes": [
+      {
+        "moduleId": 1,
+        "moduleName": "Introduction to Computer Science",
+        "date": "2024-04-15",
+        "time": "10:00 AM - 12:00 PM",
+        "instructor": "Professor Smith"
+      },
+      {
+        "moduleId": 2,
+        "moduleName": "Advanced Frontend Web Development",
+        "date": "2024-04-16",
+        "time": "2:00 PM - 4:00 PM",
+        "instructor": "Professor Johnson"
+      },
+      {
+        "moduleId": 3,
+        "moduleName": "User Experience (UX) Design",
+        "date": "2024-04-17",
+        "time": "2:00 PM - 4:00 PM",
+        "instructor": "Professor Lee"
+      },
+      {
+        "moduleId": 3,
+        "moduleName": "Advanced Frontend Web Development",
+        "date": "2024-04-18",
+        "time": "2:00 PM - 4:00 PM",
+        "instructor": "Professor Lee"
+      }
+    ]
+}
+  

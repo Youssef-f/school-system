@@ -1,6 +1,6 @@
-{
-    "classes": [
+[
       {
+        "id": 1,
         "moduleId": 1,
         "moduleName": "Introduction to Computer Science",
         "date": "2024-04-15",
@@ -8,6 +8,7 @@
         "instructor": "Professor Smith"
       },
       {
+        "id": 2,
         "moduleId": 2,
         "moduleName": "Advanced Frontend Web Development",
         "date": "2024-04-16",
@@ -15,6 +16,7 @@
         "instructor": "Professor Johnson"
       },
       {
+        "id": 3,
         "moduleId": 3,
         "moduleName": "User Experience (UX) Design",
         "date": "2024-04-17",
@@ -22,12 +24,12 @@
         "instructor": "Professor Lee"
       },
       {
-        "moduleId": 3,
+        "id": 4,
+        "moduleId": 4,
         "moduleName": "Advanced Frontend Web Development",
         "date": "2024-04-18",
         "time": "2:00 PM - 4:00 PM",
         "instructor": "Professor Lee"
       }
-    ]
-}
+]
   

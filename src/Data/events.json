@@ -1,5 +1,4 @@
-{
-    "events": [
+[
       {
         "id": 1,
         "name": "Hackathon",
@@ -14,6 +13,5 @@
         "location": "Room 102",
         "description": "Monthly faculty meeting"
       }
-    ]
-  }
+]
   

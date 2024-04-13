@@ -64,7 +64,7 @@ const Sidebar = () => {
                 <span>Results</span>
             </li>
           </Link>
-          <Link to="/absence" style={{ textDecoration: "none" }}>
+          <Link to="/absences" style={{ textDecoration: "none" }}>
             <li>
                 <CancelIcon className="icon" />
                 <span>Absence tallies</span>

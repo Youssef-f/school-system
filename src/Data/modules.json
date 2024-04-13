@@ -1,5 +1,4 @@
-{
-    "modules": [
+[
       {
         "id": 1,
         "name": "Introduction to Computer Science",
@@ -18,6 +17,5 @@
         "instructor": "Professor Lee",
         "description": "This module focuses on principles and practices of User Experience (UX) design, covering topics such as usability, user research, wireframing, prototyping, and user testing."
       }
-    ]
-}
+]
   

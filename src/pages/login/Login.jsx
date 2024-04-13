@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { Button, Checkbox, Form, Grid, Input, theme, Typography } from "antd";
 import { LockOutlined, MailOutlined } from "@ant-design/icons";
-import { useAuth } from '../../AuthContext'; // Import the useAuth hook
+import { useAuth } from '../../AuthContext';
 import { useUsers } from '../../UsersContext';
 
 const { useToken } = theme;

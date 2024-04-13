@@ -4,6 +4,13 @@ import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Profile from "./pages/profile/Profile";
+import Modules from "./pages/modules/Modules";
+import Classes from "./pages/classes/Classes";
+import Exams from "./pages/exams/Exams";
+import Results from "./pages/results/Results";
+import Absences from "./pages/absences/Absences";
+import Events from "./pages/events/Events";
+
 
 import {
   BrowserRouter,
@@ -45,6 +52,13 @@ function App() {
           <Route path="signup" element={<Signup/>} />
           <Route path="/dashboard" element={user ? <Dashboard /> : <Navigate to="/" replace />} />
           <Route path="/profile" element={user ? <Profile /> : <Navigate to="/" replace />} />
+          <Route path="/modules" element={user ? <Modules /> : <Navigate to="/" replace />} />
+          <Route path="/classes" element={user ? <Classes /> : <Navigate to="/" replace />} />
+          <Route path="/exams" element={user ? <Exams /> : <Navigate to="/" replace />} />
+          <Route path="/results" element={user ? <Results /> : <Navigate to="/" replace />} />
+          <Route path="/absences" element={user ? <Absences /> : <Navigate to="/" replace />} />
+          <Route path="/events" element={user ? <Events /> : <Navigate to="/" replace />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

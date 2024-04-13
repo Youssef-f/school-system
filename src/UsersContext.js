@@ -30,7 +30,24 @@ export const UsersProvider = ({ children }) => {
 
   // Function to update an existing user
   const updateUser = (userId, updatedUser) => {
-    setUsers(users.users.map(user => (user.id === userId ? updatedUser : user)));
+    // Map over the users array
+    const updatedUsers = users.map(user => {
+      // If the user id matches, merge the updatedUser with the existing user object
+      if (user.id === userId) {
+        return { ...user, ...updatedUser };
+      }
+      // Otherwise, return the original user object
+      return user;
+    });
+
+    // Set the updated users array as the new state
+    setUsers(updatedUsers);
+
+    // Store updated users data in localStorage
+    localStorage.setItem('users', JSON.stringify(updatedUsers));
+
+    // Store updated user data in localStorage
+    localStorage.setItem('user', JSON.stringify(updatedUser));
   };
 
   // Function to delete a user

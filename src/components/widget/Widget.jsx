@@ -3,17 +3,26 @@ import SchoolIcon from '@mui/icons-material/School';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import QuizIcon from '@mui/icons-material/Quiz';
 import InsertChartIcon from "@mui/icons-material/InsertChart";
-
+import { useModules } from '../../ModulesContext';
+import { useClasses } from '../../ClassesContext';
+import { useExams } from '../../ExamsContext';
+import { useResults } from '../../ResultsContext';
 
 const Widget = ({ type }) => {
+  const { calculateModulesNumber } = useModules();
+  const { calculateClassesNumber } = useClasses();
+  const { calculateExamsNumber } = useExams();
+  const { calculateResultsNumber } = useResults();
+
+
   let data;
   let count;
 
   // Define the variables within the component
-  const modulesNumber = 3;
-  const classesNumber = 4;
-  const examsNumber = 4;
-  const resultsNumber = 3;
+  const modulesNumber = calculateModulesNumber();
+  const classesNumber = calculateClassesNumber();
+  const examsNumber = calculateExamsNumber();
+  const resultsNumber = calculateResultsNumber();
 
   switch (type) {
     case "module":

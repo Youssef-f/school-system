@@ -25,7 +25,7 @@ export const UsersProvider = ({ children }) => {
 
   // Function to add a new user
   const addUser = (newUser) => {
-    setUsers([...users.users, newUser]);
+    setUsers([...users, newUser]);
   };
 
   // Function to update an existing user
@@ -52,7 +52,7 @@ export const UsersProvider = ({ children }) => {
 
   // Function to delete a user
   const deleteUser = (userId) => {
-    setUsers(users.users.filter(user => user.id !== userId));
+    setUsers(users.filter(user => user.id !== userId));
   };
 
   return (
